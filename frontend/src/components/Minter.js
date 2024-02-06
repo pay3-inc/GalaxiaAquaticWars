@@ -45,8 +45,8 @@ function Minter() {
 
   useEffect(() => {
     if (!pay3) {
-      const clientId = '300e22b2-ed57-488f-8d0d-1e1c164e14b6';
-      const hostname = 'https://demo1.pay3.app';
+      const clientId = '36ad675a-c4cd-11ee-a506-0242ac120002';
+      const hostname = 'https://pprod-ui.pay3.app';
   
       const pay3Instance = initPay3({ clientId, hostname, isPaymentMode: false });
   
